@@ -24,4 +24,14 @@ public class ButtonForLevel : MonoBehaviour
     {
         SceneManager.LoadScene("level3");
     }
+
+    public void StartLevel4()
+    {
+        SceneManager.LoadScene("level4");
+    }
+
+    public void StartLevel5()
+    {
+        SceneManager.LoadScene("level5");
+    }
 }
