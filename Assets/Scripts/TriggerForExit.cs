@@ -21,7 +21,7 @@ public class TriggerForExit : MonoBehaviour
         }
     }
 
-    private void Pause()
+    public void Pause()
     {
         Time.timeScale = 0;
     }

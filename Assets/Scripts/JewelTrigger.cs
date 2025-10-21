@@ -1,14 +1,15 @@
 using UnityEngine;
 
-public class MoneyTrigger : MonoBehaviour
+public class JewelTrigger : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            MoneyAccount.Money += 10;
+            MoneyAccount.Money += 100;
             Destroy(gameObject);
             Debug.Log(MoneyAccount.Money);
         }
     }
 }
+
