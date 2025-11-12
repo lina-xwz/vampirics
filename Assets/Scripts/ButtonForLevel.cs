@@ -34,4 +34,9 @@ public class ButtonForLevel : MonoBehaviour
     {
         SceneManager.LoadScene("level5");
     }
+
+    public void StartLevels()
+    {
+        SceneManager.LoadScene("levels");
+    }
 }
